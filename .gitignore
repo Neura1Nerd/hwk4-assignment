@@ -1,0 +1,16 @@
+# .gitignore for Java projects
+# Ignore class files
+*.class
+
+# Ignore temporary files
+*~
+
+# Ignore Eclipse project files
+.project
+.classpath
+
+# Ignore IntelliJ project files
+.idea/
+
+# Ignore VS Code settings
+.vscode/
