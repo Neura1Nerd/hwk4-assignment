@@ -14,3 +14,192 @@ user.name=Nisagül Aslan
 user.email=nisa55537@gmail.com
 core.editor=nano
 
+STEP b.
+C:\Users\Dell>cd C:\Users\Dell
+
+C:\Users\Dell>git clone https://github.com/Neura1Nerd/hwk4-assignment
+Cloning into 'hwk4-assignment'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (8/8), done.
+
+C:\Users\Dell>dir
+ Volume in drive C is OS
+ Volume Serial Number is 8A76-7D3D
+
+ Directory of C:\Users\Dell
+
+06.01.2024  14:55    <DIR>          .
+06.01.2024  14:55    <DIR>          ..
+18.09.2023  18:09    <DIR>          .conda
+18.09.2023  15:56                25 .condarc
+18.09.2023  15:56    <DIR>          .continuum
+06.01.2024  13:48               207 .gitconfig
+18.09.2023  15:58    <DIR>          .ipython
+18.09.2023  16:15    <DIR>          .jupyter
+06.01.2024  13:48                20 .lesshst
+09.10.2022  13:09    <DIR>          .m2
+18.09.2023  15:58    <DIR>          .matplotlib
+28.06.2022  12:47    <DIR>          .ms-ad
+16.10.2023  19:25    <DIR>          .nbi
+11.10.2022  17:07    <DIR>          .oracle_jre_usage
+16.04.2021  20:45    <DIR>          .Origin
+16.04.2021  20:45    <DIR>          .QtWebEngineProcess
+16.11.2023  10:43    <DIR>          .spyder-py3
+04.06.2021  19:13    <DIR>          .vscode
+31.03.2021  20:58    <DIR>          3D Objects
+10.04.2021  05:54    <DIR>          ansel
+31.03.2021  20:58    <DIR>          Contacts
+06.01.2024  13:45    <DIR>          Desktop
+10.09.2023  14:12    <DIR>          Documents
+06.01.2024  13:36    <DIR>          Downloads
+31.03.2021  20:58    <DIR>          Favorites
+06.01.2024  14:55    <DIR>          hwk4-assignment
+18.09.2023  15:58    <DIR>          Jedi
+31.03.2021  20:58    <DIR>          Links
+31.10.2021  17:32    <DIR>          Music
+26.11.2023  00:40    <DIR>          OneDrive
+24.12.2023  13:28    <DIR>          Pictures
+08.09.2023  12:59    <DIR>          projects
+31.03.2021  20:58    <DIR>          Saved Games
+10.03.2023  09:19    <DIR>          Searches
+06.01.2024  11:35    <DIR>          Videos
+10.10.2022  21:40                 0 WelcomeJava.jsx
+               4 File(s)            252 bytes
+              32 Dir(s)  61.739.700.224 bytes free
+C:\Users\Dell>dir hwk4-assignment\.git
+ Volume in drive C is OS
+ Volume Serial Number is 8A76-7D3D
+
+ Directory of C:\Users\Dell\hwk4-assignment\.git
+
+06.01.2024  14:55               304 config
+06.01.2024  14:55                73 description
+06.01.2024  14:55                21 HEAD
+06.01.2024  14:55    <DIR>          hooks
+06.01.2024  14:55               182 index
+06.01.2024  14:55    <DIR>          info
+06.01.2024  14:55    <DIR>          logs
+06.01.2024  14:55    <DIR>          objects
+06.01.2024  14:55               112 packed-refs
+06.01.2024  14:55    <DIR>          refs
+               5 File(s)            692 bytes
+               5 Dir(s)  61.737.099.264 bytes free
+
+STEP c.
+To create a clickable link in Markdown, we can use the following syntax:
+[Text you want to display](URL)
+In our case:
+[Department of Software Engineering, Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+This created a clickable link and clicking on it will direct users to the provided URL.
+
+STEP d.
+In my .gitignore file, I utilized the GitHub template for Java projects to exclude certain files and directories from being tracked by Git. The rules in my .gitignore file are:
+
+- *.class: Excludes compiled Java class files.
+- /target/: Excludes the target directory often used for compiled classes and JAR files.
+- /bin/: Excludes binary files.
+- ...
+
+STEP f.
+Commits on feature-1 branch:
+1- Commit 011f095: Satisfying requirement one (Author: Nisagül Aslan, Date: Sat Jan 6 17:12:54 2024 +0300)
+2- Files in hmk1 directory on feature-1 branch:
+   NumberRangePrinter.java
+3- Files in hmk1 directory on main branch:
+   homework4.txt
+
+Setting up gitignore:
+C:\Users\Dell\hwk4-assignment>git add .gitignore
+
+C:\Users\Dell\hwk4-assignment>git commit -m "Setting up gitignore"
+[main e6a5d81] Setting up gitignore
+ 1 file changed, 16 insertions(+)
+ create mode 100644 .gitignore
+
+Creating and switching to feature-1 branch:
+C:\Users\Dell\hwk4-assignment>git branch feature-1
+
+C:\Users\Dell\hwk4-assignment>git checkout feature-1
+Switched to branch 'feature-1'
+
+Navigating to the hmk1 directory:
+C:\Users\Dell\hwk4-assignment>cd hmk1
+Sistem belirtilen yolu bulamıyor.
+
+Moving to the correct directory (hwk4):
+C:\Users\Dell\hwk4-assignment>cd hwk4
+
+Adding files to git and committing for feature-1:
+C:\Users\Dell\hwk4-assignment\hwk4>git add .
+warning: in the working copy of 'hwk4/NumberRangePrinter.java', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\Dell\hwk4-assignment\hwk4>git commit -m "Satisfying requirement one"
+[feature-1 011f095] Satisfying requirement one
+ 1 file changed, 31 insertions(+)
+ create mode 100644 hwk4/NumberRangePrinter.java
+
+Viewing the commit log:
+C:\Users\Dell\hwk4-assignment\hwk4>git log
+
+Checking the files and directories in feature-1 branch:
+C:\Users\Dell\hwk4-assignment\hwk4>ls -la
+
+Switching back to the main branch:
+C:\Users\Dell\hwk4-assignment\hwk4>git checkout main
+
+Checking the files and directories in the main branch:
+C:\Users\Dell\hwk4-assignment\hwk4>dir
+
+STEP j.
+On the feature-2 branch, the following commits have been made:
+Commit ID: fdd8f6e88d8eff92082fbbf27f67b6f9f633e69e
+       Message: Satisfying requirement change two
+       Date: Sat Jan 6 19:06:23 2024 +0300
+This commit represents the changes made to the NumberRangePrinter.java file on the feature-2 branch, where the existing method was modified to print only the odd numbers in the specified range.
+
+C:\Users\Dell\hwk4-assignment\hwk4>git add NumberRangePrinter.java
+
+C:\Users\Dell\hwk4-assignment\hwk4>git status
+On branch feature-2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   NumberRangePrinter.java
+
+C:\Users\Dell\hwk4-assignment\hwk4>git commit -m "Satisfying requirement change two"
+[feature-2 fdd8f6e] Satisfying requirement change two
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+C:\Users\Dell\hwk4-assignment\hwk4>git log feature-2
+commit fdd8f6e88d8eff92082fbbf27f67b6f9f633e69e (HEAD -> feature-2)
+Author: Nisagül Aslan <nisa55537@gmail.com>
+Date:   Sat Jan 6 19:06:23 2024 +0300
+
+    Satisfying requirement change two
+
+commit 011f09506b36df14354b690d53991cececd02f9d (main, feature-3, feature-1)
+Author: Nisagül Aslan <nisa55537@gmail.com>
+Date:   Sat Jan 6 17:12:54 2024 +0300
+
+    Satisfying requirement one
+
+commit e6a5d811bccb2e76d0579b9f7a2c05c5ad26b243
+Author: Nisagül Aslan <nisa55537@gmail.com>
+Date:   Sat Jan 6 16:33:07 2024 +0300
+
+    Setting up gitignore
+
+commit 6d3043e32c2f7be1b3e01b64ef2df9f89b880694 (origin/main, origin/HEAD)
+Author: Neura1Nerd <131238969+Neura1Nerd@users.noreply.github.com>
+Date:   Sat Jan 6 13:58:35 2024 +0300
+
+    Update homework4.txt
+
+commit 583fd022f8013e29dae7ee2a52718b93de381312
+Author: Neura1Nerd <131238969+Neura1Nerd@users.noreply.github.com>
+Date:   Sat Jan 6 13:26:45 2024 +0300
+
+    Create homework4.txt
+
