@@ -153,3 +153,53 @@ C:\Users\Dell\hwk4-assignment\hwk4>git checkout main
 Checking the files and directories in the main branch:
 C:\Users\Dell\hwk4-assignment\hwk4>dir
 
+STEP j.
+On the feature-2 branch, the following commits have been made:
+Commit ID: fdd8f6e88d8eff92082fbbf27f67b6f9f633e69e
+       Message: Satisfying requirement change two
+       Date: Sat Jan 6 19:06:23 2024 +0300
+This commit represents the changes made to the NumberRangePrinter.java file on the feature-2 branch, where the existing method was modified to print only the odd numbers in the specified range.
+
+C:\Users\Dell\hwk4-assignment\hwk4>git add NumberRangePrinter.java
+
+C:\Users\Dell\hwk4-assignment\hwk4>git status
+On branch feature-2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   NumberRangePrinter.java
+
+C:\Users\Dell\hwk4-assignment\hwk4>git commit -m "Satisfying requirement change two"
+[feature-2 fdd8f6e] Satisfying requirement change two
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+C:\Users\Dell\hwk4-assignment\hwk4>git log feature-2
+commit fdd8f6e88d8eff92082fbbf27f67b6f9f633e69e (HEAD -> feature-2)
+Author: Nisagül Aslan <nisa55537@gmail.com>
+Date:   Sat Jan 6 19:06:23 2024 +0300
+
+    Satisfying requirement change two
+
+commit 011f09506b36df14354b690d53991cececd02f9d (main, feature-3, feature-1)
+Author: Nisagül Aslan <nisa55537@gmail.com>
+Date:   Sat Jan 6 17:12:54 2024 +0300
+
+    Satisfying requirement one
+
+commit e6a5d811bccb2e76d0579b9f7a2c05c5ad26b243
+Author: Nisagül Aslan <nisa55537@gmail.com>
+Date:   Sat Jan 6 16:33:07 2024 +0300
+
+    Setting up gitignore
+
+commit 6d3043e32c2f7be1b3e01b64ef2df9f89b880694 (origin/main, origin/HEAD)
+Author: Neura1Nerd <131238969+Neura1Nerd@users.noreply.github.com>
+Date:   Sat Jan 6 13:58:35 2024 +0300
+
+    Update homework4.txt
+
+commit 583fd022f8013e29dae7ee2a52718b93de381312
+Author: Neura1Nerd <131238969+Neura1Nerd@users.noreply.github.com>
+Date:   Sat Jan 6 13:26:45 2024 +0300
+
+    Create homework4.txt
+
