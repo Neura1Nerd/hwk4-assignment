@@ -125,10 +125,6 @@ C:\Users\Dell\hwk4-assignment>git branch feature-1
 C:\Users\Dell\hwk4-assignment>git checkout feature-1
 Switched to branch 'feature-1'
 
-Navigating to the hmk1 directory:
-C:\Users\Dell\hwk4-assignment>cd hmk1
-Sistem belirtilen yolu bulamıyor.
-
 Moving to the correct directory (hwk4):
 C:\Users\Dell\hwk4-assignment>cd hwk4
 
@@ -203,3 +199,62 @@ Date:   Sat Jan 6 13:26:45 2024 +0300
 
     Create homework4.txt
 
+STEP m.
+The differences between the main branch and the other three branches (feature-1, feature-2, and feature-3) are as follows:
+feature-1 Branch:
+A Java program (NumberRangePrinter.java) was created and committed on the feature-1 branch.
+The feature-1 branch was merged into main.
+# Output of git diff main..feature-1
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index 574df73..0000000
+--- a/README.md
++++ /dev/null
+@@ -1,36 +0,0 @@
+-# Please Welcome to Our Homework 4 Repository!
+...
+
+feature-2 Branch:
+The NumberRangePrinter.java file on the feature-2 branch was modified to print only odd numbers.
+The modification was committed with the message "Satisfying requirement change two."
+The feature-2 branch was merged into main.
+# Output of git diff main..feature-2
+diff --git a/hwk4/NumberRangePrinter.java b/hwk4/NumberRangePrinter.java
+index 4367e6b..76371ef 100644
+--- a/hwk4/NumberRangePrinter.java
++++ b/hwk4/NumberRangePrinter.java
+@@ -15,18 +15,15 @@ public class NumberRangePrinter {
+  public static void main(String[] args) {
+      Scanner scn = new Scanner(System.in);
+
+-        System.out.print("Enter first number: ");
++        System.out.print("Enter the first number: ");
+          int firstNumber = scn.nextInt();
+
+-        System.out.print("Enter second number: ");
++        System.out.print("Enter the second number: ");
+
+feature-3 Branch:
+The NumberRangePrinter.java file on the feature-3 branch was modified to print only even numbers.
+The modification was committed with the message "Satisfying requirement change three."
+The feature-3 branch was merged into main.
+# Output of git diff main..feature-3
+diff --git a/hwk4/homework4.txt b/hwk4/homework4.txt
+index fca82e5..94cebda 100644
+--- a/hwk4/homework4.txt
++++ b/hwk4/homework4.txt
+@@ -14,192 +14,3 @@ user.name=Nisagül Aslan
+ user.email=nisa55537@gmail.com
+ core.editor=nano
+
+-STEP b.
+-C:\Users\Dell>cd C:\Users\Dell
+-
+-C:\Users\Dell>git clone https://github.com/Neura1Nerd/hwk4-assignment
+-Cloning into 'hwk4-assignment'...
+-remote: Enumerating objects: 8, done.
+-remote: Counting objects: 100% (8/8), done.
+-remote: Compressing objects: 100% (3/3), done.
+...
+
+These changes reflect the incremental development and specific functionalities added to the codebase on each feature branch before being merged into the main branch.
