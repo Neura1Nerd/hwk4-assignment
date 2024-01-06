@@ -88,5 +88,68 @@ C:\Users\Dell>dir hwk4-assignment\.git
                5 File(s)            692 bytes
                5 Dir(s)  61.737.099.264 bytes free
 
+STEP c.
+To create a clickable link in Markdown, we can use the following syntax:
+[Text you want to display](URL)
+In our case:
+[Department of Software Engineering, Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+This created a clickable link and clicking on it will direct users to the provided URL.
 
+STEP d.
+In my .gitignore file, I utilized the GitHub template for Java projects to exclude certain files and directories from being tracked by Git. The rules in my .gitignore file are:
+
+- *.class: Excludes compiled Java class files.
+- /target/: Excludes the target directory often used for compiled classes and JAR files.
+- /bin/: Excludes binary files.
+- ...
+
+STEP f.
+Commits on feature-1 branch:
+1- Commit 011f095: Satisfying requirement one (Author: Nisagül Aslan, Date: Sat Jan 6 17:12:54 2024 +0300)
+2- Files in hmk1 directory on feature-1 branch:
+   NumberRangePrinter.java
+3- Files in hmk1 directory on main branch:
+   homework4.txt
+
+Setting up gitignore:
+C:\Users\Dell\hwk4-assignment>git add .gitignore
+
+C:\Users\Dell\hwk4-assignment>git commit -m "Setting up gitignore"
+[main e6a5d81] Setting up gitignore
+ 1 file changed, 16 insertions(+)
+ create mode 100644 .gitignore
+
+Creating and switching to feature-1 branch:
+C:\Users\Dell\hwk4-assignment>git branch feature-1
+
+C:\Users\Dell\hwk4-assignment>git checkout feature-1
+Switched to branch 'feature-1'
+
+Navigating to the hmk1 directory:
+C:\Users\Dell\hwk4-assignment>cd hmk1
+Sistem belirtilen yolu bulamıyor.
+
+Moving to the correct directory (hwk4):
+C:\Users\Dell\hwk4-assignment>cd hwk4
+
+Adding files to git and committing for feature-1:
+C:\Users\Dell\hwk4-assignment\hwk4>git add .
+warning: in the working copy of 'hwk4/NumberRangePrinter.java', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\Dell\hwk4-assignment\hwk4>git commit -m "Satisfying requirement one"
+[feature-1 011f095] Satisfying requirement one
+ 1 file changed, 31 insertions(+)
+ create mode 100644 hwk4/NumberRangePrinter.java
+
+Viewing the commit log:
+C:\Users\Dell\hwk4-assignment\hwk4>git log
+
+Checking the files and directories in feature-1 branch:
+C:\Users\Dell\hwk4-assignment\hwk4>ls -la
+
+Switching back to the main branch:
+C:\Users\Dell\hwk4-assignment\hwk4>git checkout main
+
+Checking the files and directories in the main branch:
+C:\Users\Dell\hwk4-assignment\hwk4>dir
 
