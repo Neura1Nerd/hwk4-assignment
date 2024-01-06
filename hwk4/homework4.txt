@@ -125,10 +125,6 @@ C:\Users\Dell\hwk4-assignment>git branch feature-1
 C:\Users\Dell\hwk4-assignment>git checkout feature-1
 Switched to branch 'feature-1'
 
-Navigating to the hmk1 directory:
-C:\Users\Dell\hwk4-assignment>cd hmk1
-Sistem belirtilen yolu bulamıyor.
-
 Moving to the correct directory (hwk4):
 C:\Users\Dell\hwk4-assignment>cd hwk4
 
