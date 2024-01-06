@@ -1,1 +1,16 @@
+STEP a. 
+C:\Users\Dell>git config --global user.name "Nisagül Aslan"
+
+C:\Users\Dell>git config --global user.email "nisa55537@gmail.com"
+
+C:\Users\Dell>git config --global core.editor "nano"
+
+C:\Users\Dell>git config --global --list
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Nisagül Aslan
+user.email=nisa55537@gmail.com
+core.editor=nano
 
