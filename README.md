@@ -30,7 +30,7 @@ We are Software Engineering Students in Isık University who are working on this
 ## Follow Our Progress by Cloning the Repository to Your Machine:
 git clone https://github.com/YourUsername/hwk4-assignment
 
-## Link to Our Web Page of The Department of Software Engineering of Işık University
+## Link to Our Web Page 
 [The Department of Software Engineering of Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
 
 
