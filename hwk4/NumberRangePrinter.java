@@ -15,15 +15,18 @@ public class NumberRangePrinter {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
-        System.out.print("Enter the first number: ");
+        System.out.print("Enter first number: ");
         int firstNumber = scn.nextInt();
 
-        System.out.print("Enter the second number: ");
+        System.out.print("Enter second number: ");
         int secondNumber = scn.nextInt();
 
-        System.out.println("Numbers between " + firstNumber + " and " + secondNumber + ":");
+        System.out.println("Odd numbers between " + firstNumber + " and " + secondNumber + ":");
         for (int i = firstNumber + 1; i < secondNumber; i++) {
-            System.out.print(i + " ");
+            // Check if the current number is odd
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
         }
 
         scn.close();
