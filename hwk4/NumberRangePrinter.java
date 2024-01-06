@@ -21,10 +21,10 @@ public class NumberRangePrinter {
         System.out.print("Enter second number: ");
         int secondNumber = scn.nextInt();
 
-        System.out.println("Odd numbers between " + firstNumber + " and " + secondNumber + ":");
+        System.out.println("Even numbers between " + firstNumber + " and " + secondNumber + ":");
         for (int i = firstNumber + 1; i < secondNumber; i++) {
-            // Check if the current number is odd
-            if (i % 2 != 0) {
+            // Check if the current number is even
+            if (i % 2 == 0) {
                 System.out.print(i + " ");
             }
         }
