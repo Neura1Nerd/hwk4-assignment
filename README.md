@@ -28,7 +28,7 @@ In Homework 4, we have completed various tasks such as configuring Git, cloning 
 We are Software Engineering Students in Isık University who are working on this homework collaboratively.
 
 ## Follow Our Progress by Cloning the Repository to Your Machine:
-git clone https://github.com/YourUsername/hwk4-assignment
+git clone https://github.com/Neura1Nerd/hwk4-assignment
 
 ## Link to Our Web Page 
 [The Department of Software Engineering of Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
